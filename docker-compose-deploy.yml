@@ -34,7 +34,7 @@ services:
     depends_on:
       - app
     ports:
-      - 8000:8000 # Set to first port before semicolon to 80 for production, 8000 for local test
+      - 80:8000 # Set to first port before semicolon to 80 for production, 8000 for local test
     volumes:
       - static-data:/vol/static
         
